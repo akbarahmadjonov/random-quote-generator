@@ -1,0 +1,560 @@
+ * {
+     padding: 0;
+     margin: 0;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     background: rgb(255, 255, 255);
+ }
+ /* * Parent Div * */
+ 
+ .wrapperQuote {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 80px;
+ }
+ /* * Child Div (p) * */
+ 
+ .wrapperQuote p {
+     padding-top: 20px;
+     width: 45%;
+     font-style: italic;
+     line-height: 1.7em;
+     margin-bottom: 20px;
+     color: #000;
+     font-weight: 500;
+     font-size: 19.5px;
+ }
+ 
+ .wrapperQuote h5 {
+     color: #CB496B;
+     font-size: 14.5px;
+ }
+ 
+ .wrapperQuote h5:nth-child(3) {
+     color: #a8a5a5;
+     font-weight: normal;
+ }
+ 
+ .holdQuote {
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     padding: 120px 0px 120px 0px;
+     padding-left: 33%;
+     border-radius: 7px;
+ }
+ 
+ .wrapperQuote h1 {
+     position: absolute;
+     margin-top: -50px;
+     margin-left: 130px;
+     font-weight: normal;
+     font-size: 50px;
+ }
+ /* Next Button */
+ 
+ .nextButton {
+     padding-left: 250px;
+     padding-top: 20px;
+ }
+ /* * Working on buttons * */
+ 
+ .nextButton button {
+     padding: 15px 55px 15px 55px;
+     font-size: 17px;
+     cursor: pointer;
+     outline: none;
+     border: 1px solid #CB496B;
+     border-radius: 2px;
+     transition: all 0.1s ease-in-out;
+     color: #000;
+     font-family: Calibri;
+     position: relative;
+ }
+ /*  
+ .nextButton button:active {
+     bottom: 7px;
+ }
+  */
+ 
+ .nextButton button:hover {
+     color: #fff;
+     background: #CB496B;
+ }
+ 
+ .nextButton button:active {
+     background: #d46d88;
+ }
+ /* * Four Colors * */
+ 
+ .fourColors .firstColor {
+     width: 58px;
+     height: 58px;
+     margin-left: 50px;
+     margin-top: -50px;
+     background: #3DB6BC;
+     position: absolute;
+ }
+ 
+ .fourColors .secondColor {
+     width: 58px;
+     height: 58px;
+     background: #000000;
+     position: absolute;
+     bottom: 20px;
+     right: 180px;
+ }
+ 
+ .fourColors .thirdColor {
+     width: 58px;
+     height: 58px;
+     background: #f5d002;
+     position: absolute;
+     right: 40px;
+     top: 150px;
+ }
+ 
+ .fourColors .forthColor {
+     width: 58px;
+     height: 58px;
+     background: #B083FC;
+     position: absolute;
+     left: 15px;
+     bottom: 50px;
+ }
+ 
+ .fourColors div {
+     border-radius: 2px;
+ }
+ 
+ .fa-quote-left {
+     color: #846858;
+     position: absolute;
+     margin-left: -60px;
+     font-size: 28px;
+ }
+ /* Media Queries */
+ /* ############# */
+ 
+ @media screen and (min-width: 320px) and (max-width: 480px) {
+     .wrapperQuote {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 80px;
+     }
+     /* * Child Div (p) * */
+     .wrapperQuote p {
+         padding-top: 20px;
+         width: 90%;
+         line-height: 1.7em;
+         margin-bottom: 20px;
+         font-weight: 500;
+         font-size: 19.5px;
+     }
+     .wrapperQuote h5 {
+         font-size: 14.5px;
+     }
+     .holdQuote {
+         padding: 80px 0px 70px 0px;
+         padding-left: 18%;
+         border-radius: 7px;
+     }
+     .wrapperQuote h1 {
+         position: absolute;
+         margin-top: -50px;
+         margin-left: 130px;
+         font-weight: normal;
+         font-size: 50px;
+     }
+     /* Next Button */
+     .nextButton {
+         padding-left: 0px;
+         padding-top: 20px;
+     }
+     /* * Working on buttons * */
+     .nextButton button {
+         padding: 15px 45px 15px 45px;
+         font-size: 16px;
+         cursor: pointer;
+         outline: none;
+         border-radius: 2px;
+     }
+     /* * Four Colors * */
+     .fourColors .firstColor {
+         width: 50px;
+         height: 50px;
+         margin-left: 30px;
+         margin-top: -70px;
+         position: absolute;
+     }
+     .fourColors .secondColor {
+         width: 50px;
+         height: 50px;
+         position: absolute;
+         bottom: -90px;
+         right: 50px;
+     }
+     .fourColors .thirdColor {
+         width: 50px;
+         height: 50px;
+         position: absolute;
+         right: 5px;
+         top: 80px;
+     }
+     .fourColors .forthColor {
+         width: 50px;
+         height: 50px;
+         position: absolute;
+         left: 2px;
+         bottom: -50px;
+     }
+     .fourColors div {
+         border-radius: 2px;
+     }
+     .fa-quote-left {
+         position: absolute;
+         margin-left: -40px;
+         font-size: 28px;
+         color: #2c3a49;
+     }
+     /* 320px and 480px */
+ }
+ 
+ @media screen and (min-width: 481px) and (max-width: 768px) {
+     .wrapperQuote {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 80px;
+     }
+     /* * Child Div (p) * */
+     .wrapperQuote p {
+         padding-top: 20px;
+         width: 90%;
+         line-height: 1.7em;
+         margin-bottom: 20px;
+         font-weight: 500;
+         font-size: 19.5px;
+     }
+     .wrapperQuote h5 {
+         font-size: 14.5px;
+     }
+     .holdQuote {
+         padding: 100px 0px 100px 0px;
+         padding-left: 20%;
+         border-radius: 7px;
+     }
+     .wrapperQuote h1 {
+         position: absolute;
+         margin-top: -50px;
+         margin-left: 130px;
+         font-weight: normal;
+         font-size: 50px;
+     }
+     /* Next Button */
+     .nextButton {
+         padding-left: 200px;
+         padding-top: 20px;
+     }
+     /* * Working on buttons * */
+     .nextButton button {
+         padding: 15px 45px 15px 45px;
+         font-size: 16px;
+         cursor: pointer;
+         outline: none;
+         border-radius: 2px;
+     }
+     /* * Four Colors * */
+     .fourColors .firstColor {
+         width: 53px;
+         height: 53px;
+         margin-left: 30px;
+         margin-top: -70px;
+         position: absolute;
+     }
+     .fourColors .secondColor {
+         width: 53px;
+         height: 53px;
+         position: absolute;
+         bottom: -90px;
+         right: 50px;
+     }
+     .fourColors .thirdColor {
+         width: 53px;
+         height: 53px;
+         position: absolute;
+         right: 5px;
+         top: 80px;
+     }
+     .fourColors .forthColor {
+         width: 53px;
+         height: 53px;
+         position: absolute;
+         left: 2px;
+         bottom: -50px;
+     }
+     .fourColors div {
+         border-radius: 2px;
+     }
+     .fa-quote-left {
+         position: absolute;
+         margin-left: -45px;
+         font-size: 30px;
+         color: #2c3a49;
+     }
+     /* 481px and 768px */
+ }
+ 
+ @media screen and (min-width: 769px) and (max-width: 1024px) {
+     .wrapperQuote {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 80px;
+     }
+     /* * Child Div (p) * */
+     .wrapperQuote p {
+         padding-top: 20px;
+         width: 60%;
+         line-height: 1.7em;
+         margin-bottom: 20px;
+         font-weight: 500;
+         font-size: 19.5px;
+     }
+     .wrapperQuote h5 {
+         font-size: 14.5px;
+     }
+     .holdQuote {
+         padding: 90px 0px 90px 0px;
+         padding-left: 25%;
+         border-radius: 7px;
+     }
+     .wrapperQuote h1 {
+         position: absolute;
+         margin-top: -50px;
+         margin-left: 130px;
+         font-weight: normal;
+         font-size: 50px;
+     }
+     /* Next Button */
+     .nextButton {
+         padding-left: 240px;
+         padding-top: 20px;
+     }
+     /* * Working on buttons * */
+     .nextButton button {
+         padding: 15px 55px 15px 55px;
+         font-size: 16px;
+         cursor: pointer;
+         outline: none;
+         border-radius: 2px;
+     }
+     /* * Four Colors * */
+     .fourColors .firstColor {
+         width: 55px;
+         height: 55px;
+         margin-left: 30px;
+         margin-top: -70px;
+         position: absolute;
+     }
+     .fourColors .secondColor {
+         width: 55px;
+         height: 55px;
+         position: absolute;
+         bottom: -90px;
+         right: 50px;
+     }
+     .fourColors .thirdColor {
+         width: 55px;
+         height: 55px;
+         position: absolute;
+         right: 5px;
+         top: 80px;
+     }
+     .fourColors .forthColor {
+         width: 55px;
+         height: 55px;
+         position: absolute;
+         left: 2px;
+         bottom: -50px;
+     }
+     .fourColors div {
+         border-radius: 2px;
+     }
+     .fa-quote-left {
+         position: absolute;
+         margin-left: -45px;
+         font-size: 30px;
+         color: #2c3a49;
+     }
+     /* 768px and 1024px */
+ }
+ 
+ @media screen and (min-width: 1025px) and (max-width: 1200px) {
+     .wrapperQuote {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 80px;
+     }
+     /* * Child Div (p) * */
+     .wrapperQuote p {
+         padding-top: 20px;
+         width: 55%;
+         line-height: 1.7em;
+         margin-bottom: 20px;
+         font-weight: 500;
+         font-size: 19.5px;
+     }
+     .wrapperQuote h5 {
+         font-size: 14.5px;
+     }
+     .holdQuote {
+         padding: 90px 0px 90px 0px;
+         padding-left: 30%;
+         border-radius: 7px;
+     }
+     .wrapperQuote h1 {
+         position: absolute;
+         margin-top: -50px;
+         margin-left: 130px;
+         font-weight: normal;
+         font-size: 50px;
+     }
+     /* Next Button */
+     .nextButton {
+         padding-left: 240px;
+         padding-top: 20px;
+     }
+     /* * Working on buttons * */
+     .nextButton button {
+         padding: 15px 55px 15px 55px;
+         font-size: 16px;
+         cursor: pointer;
+         outline: none;
+         border-radius: 2px;
+     }
+     /* * Four Colors * */
+     .fourColors .firstColor {
+         width: 55px;
+         height: 55px;
+         margin-left: 30px;
+         margin-top: -70px;
+         position: absolute;
+     }
+     .fourColors .secondColor {
+         width: 55px;
+         height: 55px;
+         position: absolute;
+         bottom: -90px;
+         right: 50px;
+     }
+     .fourColors .thirdColor {
+         width: 55px;
+         height: 55px;
+         position: absolute;
+         right: 5px;
+         top: 80px;
+     }
+     .fourColors .forthColor {
+         width: 55px;
+         height: 55px;
+         position: absolute;
+         left: 2px;
+         bottom: -50px;
+     }
+     .fourColors div {
+         border-radius: 2px;
+     }
+     .fa-quote-left {
+         position: absolute;
+         margin-left: -45px;
+         font-size: 30px;
+         color: #2c3a49;
+     }
+     /* 1025px and 1200px */
+ }
+ 
+ @media screen and (min-width: 1201px) and (max-width: 1315px) {
+     .wrapperQuote {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 80px;
+     }
+     /* * Child Div (p) * */
+     .wrapperQuote p {
+         padding-top: 20px;
+         width: 55%;
+         line-height: 1.7em;
+         margin-bottom: 20px;
+         font-weight: 500;
+         font-size: 19.5px;
+     }
+     .wrapperQuote h5 {
+         font-size: 14.5px;
+     }
+     .holdQuote {
+         padding: 90px 0px 90px 0px;
+         padding-left: 30%;
+         border-radius: 7px;
+     }
+     .wrapperQuote h1 {
+         position: absolute;
+         margin-top: -50px;
+         margin-left: 130px;
+         font-weight: normal;
+         font-size: 50px;
+     }
+     /* Next Button */
+     .nextButton {
+         padding-left: 240px;
+         padding-top: 20px;
+     }
+     /* * Working on buttons * */
+     .nextButton button {
+         padding: 15px 55px 15px 55px;
+         font-size: 16px;
+         cursor: pointer;
+         outline: none;
+         border-radius: 2px;
+     }
+     /* * Four Colors * */
+     .fourColors .firstColor {
+         width: 55px;
+         height: 55px;
+         margin-left: 30px;
+         margin-top: -70px;
+         position: absolute;
+     }
+     .fourColors .secondColor {
+         width: 55px;
+         height: 55px;
+         position: absolute;
+         bottom: -90px;
+         right: 50px;
+     }
+     .fourColors .thirdColor {
+         width: 55px;
+         height: 55px;
+         position: absolute;
+         right: 5px;
+         top: 80px;
+     }
+     .fourColors .forthColor {
+         width: 55px;
+         height: 55px;
+         position: absolute;
+         left: 2px;
+         bottom: -50px;
+     }
+     .fourColors div {
+         border-radius: 2px;
+     }
+     .fa-quote-left {
+         position: absolute;
+         margin-left: -45px;
+         font-size: 30px;
+         color: #2c3a49;
+     }
+     /* 1201px and 1315px */
+ }
